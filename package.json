@@ -1,0 +1,20 @@
+{
+  "name": "resturant-page",
+  "version": "1.0.0",
+  "description": "Returant website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thabomcodes/resturant-page.git"
+  },
+  "keywords": ["webpack", "npm", "resturant-page"],
+  "author": "Thabo Vincent Moloi <thabomoloicodes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thabomcodes/resturant-page/issues"
+  },
+  "homepage": "https://github.com/thabomcodes/resturant-page#readme"
+}

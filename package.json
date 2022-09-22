@@ -10,11 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/thabomcodes/resturant-page.git"
   },
-  "keywords": ["webpack", "npm", "resturant-page"],
+  "keywords": [
+    "webpack",
+    "npm",
+    "resturant-page"
+  ],
   "author": "Thabo Vincent Moloi <thabomoloicodes@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/thabomcodes/resturant-page/issues"
   },
-  "homepage": "https://github.com/thabomcodes/resturant-page#readme"
+  "homepage": "https://github.com/thabomcodes/resturant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }

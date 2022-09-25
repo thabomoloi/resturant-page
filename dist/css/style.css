@@ -1,0 +1,45 @@
+:root {
+    --background-color: rgba(0, 0, 0, 0.05);
+    --home-p-font-size: calc(0.75em + 0.75vw);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(../images/one-piece-thousand-sunny.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    border: 1px solid white;
+    padding: 2em;
+    background-color: var(--background-color);
+    border-radius: 5%;
+}
+
+.home-content img {
+    width: min(30em, 80vw);;
+}
+
+.home-content p {
+    font-size: var(--home-p-font-size);
+    color: white;
+    font-weight: 600;
+}

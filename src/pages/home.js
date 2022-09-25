@@ -10,10 +10,10 @@ function getHomepage() {
     top_paragraph.innerText = "Get the best food in the sea.";
     
     const bottom_paragaph = document.createElement("p");
-    bottom_paragaph.innerText = "Visit us in our ship: Thousand Sunny";
+    bottom_paragaph.innerText = "Visit us in our ship: The Thousand Sunny";
 
     const imageHome = document.createElement("img");
-    imageHome.src = "assets/images/home_image.jpeg";
+    imageHome.src = "./images/home_image.jpeg";
     imageHome.alt = "Sanji holding a dish.";
 
     home.appendChild(top_paragraph);
@@ -23,6 +23,9 @@ function getHomepage() {
     return home;
 }
 
+/**
+ * Loads the home page.
+ */
 function loadHomepage() {
     const content = document.getElementById("content");
     content.innerHTML = ""; // Clear content

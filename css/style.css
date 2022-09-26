@@ -26,7 +26,7 @@ body {
     align-items: center;
     padding: 5em 0;
 }
-.home-content {
+.home-content, .contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,32 @@ body {
     color: white;
     font-weight: 600;
 }
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    border: 2px solid white;
+    padding: 2em calc(2em + 5vw);
+    color: white;
+    background-color: var(--background-color);
+    border-radius: 5%;
+}
 
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em 2em;
+    font-size: var(--home-p-font-size);
+    border-radius: 5%;
+}
 header {
     display: flex;
     justify-content: space-between;

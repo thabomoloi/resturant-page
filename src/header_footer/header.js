@@ -3,6 +3,7 @@ import loadHomepage from "../pages/home";
 function getHeader() {
     const siteName = document.createElement("span");
     siteName.innerText = "Sunny Eats";
+    siteName.id = "site-name";
 
     const navBar = document.createElement("nav");
     navBar.classList.add("nav-menu");

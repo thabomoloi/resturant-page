@@ -68,3 +68,9 @@ header {
     color: white;
     font-weight: 600;
 }
+.nav-menu button:hover {
+    background-color: yellowgreen;
+}
+button.active {
+    background-color: green;
+}

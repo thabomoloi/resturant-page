@@ -7,7 +7,7 @@ function getHomepage() {
     home.classList.add("home-content");
 
     const h1 = document.createElement("h1");
-    h1.innerText = "Sunny Eats Resturants";
+    h1.innerText = "Sunny Eats Resturant";
     h1.style.color = "white";
     h1.style.textAlign = "center"
 

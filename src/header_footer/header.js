@@ -1,4 +1,7 @@
 import loadHomepage from "../pages/home";
+import loadContacts from "../pages/about";
+import loadMenu from "../pages/menu";
+ 
 
 function getHeader() {
     const siteName = document.createElement("span");
@@ -28,11 +31,13 @@ function getHeader() {
         home.className = "";
         menu.className = "active";
         contact.className = "";
+        loadMenu();
     });
     contact.addEventListener("click", ()=> {
         home.className = "";
         menu.className = "";
         contact.className = "active";
+        loadContacts();
     });
 
     navBar.appendChild(home);

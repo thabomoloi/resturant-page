@@ -9,6 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -34,11 +35,36 @@ body {
 }
 
 .home-content img {
-    width: min(30em, 80vw);;
+    width: min(40em, 80vw);;
 }
 
 .home-content p {
     font-size: var(--home-p-font-size);
+    color: white;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 2em calc(2em + 1vw);
+}
+#site-name {
+    color: white;
+    font-size: calc(0.75em + 1vw);
+    font-weight: 600;
+}
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu button{
+    font-size: var(--home-p-font-size);
+    padding: calc(0.25em + 1vw);
+    border: none;
+    background: none;
     color: white;
     font-weight: 600;
 }

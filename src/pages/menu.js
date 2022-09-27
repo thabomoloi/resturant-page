@@ -10,9 +10,9 @@ function getMenuPage() {
     menu.className = "menu";
 
     const menuItems = [
-        {"name": "Curry Rice", "src": "../images/cuury_rice.jpg", "alt": "Curry Rice"},
-        {"name": "Ramen", "src": "../images/ramen.jpg", "alt": "Ramen"},
-        {"name": "Seafood Fried Rice", "src": "../images/seafood_fried_rice.jpeg", "alt": "Seafood Fried Rice"}
+        {"name": "Curry Rice", "src": "./images/cuury_rice.jpg", "alt": "Curry Rice"},
+        {"name": "Ramen", "src": "./images/ramen.jpg", "alt": "Ramen"},
+        {"name": "Seafood Fried Rice", "src": "./images/seafood_fried_rice.jpeg", "alt": "Seafood Fried Rice"}
      ]
 
     for (let i = 0; i < 3; i++) {
@@ -22,14 +22,17 @@ function getMenuPage() {
 
         const h3 = document.createElement("h3");
         h3.innerText = item.name;
-        menuDiv.appendChild(h2);
+        menuDiv.appendChild(h3);
 
         const img = document.createElement("img");
         img.src = item.src;
         img.alt = item.alt;
         menuDiv.appendChild(img);
+
+        menu.appendChild(menuDiv);
+
     }
-    container.appendChild(menuItems);
+    container.appendChild(menu);
     return container;
 }
 

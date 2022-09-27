@@ -34,7 +34,9 @@ function getMenuPage() {
 }
 
 function loadMenu() {
-
+    const content = document.getElementById("content");
+    content.innerHTML = ""; // Clear content
+    content.appendChild(getMenuPage())
 }
 
 export default loadMenu;
